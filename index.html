@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Story Manager</title>
+</head>
+<body>
+    <header>
+        <h1>Story Manager</h1>
+    </header>
+    <main>
+        <section id="heroes">
+            <h2>Heros</h2>
+            <textarea id="heroesInput" placeholder="Enter hero information..."></textarea>
+            <button onclick="saveText('heroesInput')">Save</button>
+        </section>
+        <section id="characters">
+            <h2>Characters</h2>
+            <textarea id="charactersInput" placeholder="Enter characters information..."></textarea>
+            <button onclick="saveText('charactersInput')">Save</button>
+        </section>
+        <section id="locations">
+            <h2>Locations</h2>
+            <textarea id="locationsInput" placeholder="Enter locations information..."></textarea>
+            <button onclick="saveText('locationsInput')">Save</button>
+        </section>
+        <section id="items">
+            <h2>Items</h2>
+            <textarea id="itemsInput" placeholder="Enter items information..."></textarea>
+            <button onclick="saveText('itemsInput')">Save</button>
+        </section>
+        <section id="keyitems">
+            <h2>Key Items</h2>
+            <textarea id="keyitemsInput" placeholder="Enter key items information..."></textarea>
+            <button onclick="saveText('keyitemsInput')">Save</button>
+        </section>
+        <section id="lore">
+            <h2>Lore</h2>
+            <textarea id="loreInput" placeholder="Enter lore information..."></textarea>
+            <button onclick="saveText('loreInput')">Save</button>
+        </section>
+        <!-- Repeat the above structure for characters, locations, items, and key items -->
+        <section id="stats">
+            <h2>Stats</h2>
+            <textarea id="statsInput" placeholder="Enter stats information..."></textarea>
+            <button onclick="saveText('statsInput')">Save</button>
+        </section>
+        <section id="extra">
+            <h2>Extra Section</h2>
+            <textarea id="extraInput" placeholder="Enter extra information..."></textarea>
+            <button onclick="saveText('extraInput')">Save</button>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
